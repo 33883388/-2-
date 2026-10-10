@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="stylesheet" href="12.css">
+    <div class="aa">
+        <form action="" method="post">
+            <h1>Регистрация</h1>
+            <label>Логин</label><input type="text" name="login" placeholder="login" required maxlength="10" pattern="[a-zA-Z]+"><br>
+            <label>Пароль</label><input type="text" name="password" placeholder="password" required maxlength="30" pattern="[a-z,A-Z]+"><br>
+            <label>ФИО</label><input type="text" name="FIO" placeholder="FIO" required maxlength="100" pattern="[a-zA-Z,а-яА-ЯёЁ]+"><br>
+            <label>Телефон</label><input type="text" name="phone" placeholder="phone" required maxlength="12" minlength="11" pattern="[0-9,+]+"><br>
+            <label>Почта</label><input type="text" name="email" placeholder="email" required maxlength="50" pattern="[a-zA-Z,0-9,^@.]+"><br>
+            <button type="submit">Зарегистрироваться</button><br>
+            <label>Если есть аккаунт</label><button type="button"><a href="Вход.html">Войти</a></button>
+            <button type="button"><a href="Главное.html">Гость</a></button>
+        </form>
+    </div>
+</body>
+</html>
