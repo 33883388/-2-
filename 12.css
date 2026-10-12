@@ -48,3 +48,6 @@ select{
 p{
     font-size: 20px;
 }
+.box button{
+    margin-left: 10px;
+}
